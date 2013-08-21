@@ -1,6 +1,6 @@
 #!/bin/sh
-
-# ffmpeg -i beginning.mp4 -ss 00:00:30.0 -t 00:00:10.0 b.mpg
+set -e
+mkdir -p output
 
 # "I have a band"
 ffmpeg -i beginning.mp4 -ss 00:00:05.0 -t 00:00:07.0 output/00.mpg

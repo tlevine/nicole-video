@@ -15,4 +15,10 @@ ffmpeg -i beginning.mp4 -ss 00:00:13.0 -t 00:00:02.0 output/20.mpg
 ffmpeg -i fms-symphony-withsound.avi -ss 00:01:00.0 -t 00:00:06.0 output/30.mpg
 
 # "..."
-ffmpeg -i beginning.mp4 -ss 00:00:15.0 -t 00:02:15.0 output/40.mpg
+ffmpeg -i beginning.mp4 -ss 00:00:15.0 -t 00:02:13.0 output/40.mpg
+
+# "As I said before, I do what I want."
+ffmpeg -i middle.mp4 -ss 00:00:02.0 -t 00:00:32.0 output/50.mpg
+
+# "Do whatever you want."
+ffmpeg -i end.mp4 -ss 00:00:15.0 -t 00:02:15.0 output/50.mpg
